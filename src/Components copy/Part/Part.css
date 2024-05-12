@@ -1,0 +1,141 @@
+.recent-work .recent-work-vertical:hover {
+    background-position: 0% 0% !important;
+    transition: .5s !important;
+    -webkit-transition: .5s !important;
+    -moz-transition: .5s !important;
+    -ms-transition: .5s !important;
+    -o-transition: .5s !important;
+}
+
+.service-work .recent-work .recent-work-vertical {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 33.333%, rgba(97, 84, 199, 1) 66.666%, rgba(255, 255, 255, 0) 99.999%);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-size: 300% 300%;
+    background-position: 0% 100%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.align-items-end {
+    -webkit-box-align: end !important;
+    -ms-flex-align: end !important;
+    align-items: flex-end !important;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 33.333%, rgba(97, 84, 199, 1) 66.666%, rgba(255, 255, 255, 0) 99.999%);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-size: auto;
+    background-size: 300% 300%;
+    background-position: 0% 100%;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.align-items-end:hover {
+    background-position: 0% 0% !important;
+    transition: .5s !important;
+    -webkit-transition: .5s !important;
+    -moz-transition: .5s !important;
+    -ms-transition: .5s !important;
+    -o-transition: .5s !important;
+}
+
+.text-dark h3,
+.text-dark p {
+    color: #212529 !important;
+    margin-top: -2.5em;
+    position: absolute;
+}
+
+/* .recent-work-content :hover {
+    color: white !important;
+    transition: .5s;
+    top: 50%;
+} */
+
+/* 
+div >button >.recent-work .recent-work-vertical:hover{
+    color: white;
+  transition: .5s;
+} */
+
+/* 
+
+.recent-work.card {
+    border-radius: 10px !important;
+  }
+  .recent-work .recent-work-vertical {
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 33.333%, rgba(97,84,199,1) 66.666%, rgba(255,255,255,0) 99.999%);
+      background-position-x: 0%;
+      background-position-y: 0%;
+      background-size: auto;
+    background-size: 300% 300%;
+    background-position: 0% 100%;
+    transition: .5s;
+    cursor: pointer;
+  }
+
+  .light-300 {
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 300;
+  }
+  p, a {
+    font-weight: 400;
+  }
+
+  .recent-work .recent-work-vertical:hover {
+    background-position: 0% 0%;
+    transition: .5s;
+  } */
+  
+  .service-work {
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border: none;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+  }
+  
+  .service-work:hover .recent-work-content {
+    transform: translateY(-400%);
+    -webkit-transform: translateY(-400%);
+    -moz-transform: translateY(-400%);
+    -ms-transform: translateY(-400%);
+    -o-transform: translateY(-400%);
+}
+  
+  .service-work:hover h3.card-title,
+  .service-work:hover p.card-text {
+    color: white !important;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* تعديل القيم هنا حسب التفضيلات */ }
+  
+  .service-work:hover .recent-work-img {
+    filter: grayscale(400%);
+}
+  
+  .recent-work-content {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+  
+  .card-title {
+    margin: 10px;
+    font-size: 1.75rem;
+    transition: color 0.3s ease-in-out;
+}
+  
+  .card-text {
+    margin: 0;
+    padding: 10px;
+    transition: color 0.3s ease-in-out;
+  }

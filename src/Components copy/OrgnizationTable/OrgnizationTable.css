@@ -1,0 +1,37 @@
+.table-seeker{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+}
+.css-n3fyjk-MuiDataGrid-root .MuiDataGrid-cell--textLeft{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.css-t89xny-MuiDataGrid-columnHeaderTitle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.css-n3fyjk-MuiDataGrid-root .MuiDataGrid-columnHeaderTitleContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.css-n3fyjk-MuiDataGrid-root .MuiDataGrid-cell--textRight{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.css-n3fyjk-MuiDataGrid-root .MuiDataGrid-container--top [role="row"], .css-n3fyjk-MuiDataGrid-root .MuiDataGrid-container--bottom [role="row"]{
+    background-color: cornflowerblue !important;
+    color: white;
+    font-weight: bolder !important;
+}
+.css-n3fyjk-MuiDataGrid-root .MuiDataGrid-cell--textLeft{
+    justify-content: center !important;
+}
+.css-n3fyjk-MuiDataGrid-root .MuiDataGrid-cell--textRight{
+    justify-content: center  !important;
+}

@@ -1,0 +1,78 @@
+.opportunitys-list {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .add-opportunity-form {
+    margin-bottom: 20px;
+  }
+  
+  .input-field {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .btn-submit {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .opportunity-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .opportunity-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+  }
+  
+  .edit-mode {
+    margin-bottom: 10px;
+  }
+  
+  .view-mode {
+    margin-bottom: 10px;
+  }
+  
+  .edit-delete-icons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
+  
+  .edit-icon,
+  .delete-icon {
+    cursor: pointer;
+    margin-left: 5px;
+  }
+  
+  .edit-icon:hover,
+  .delete-icon:hover {
+    color: red;
+  }
+  
+  .btn-save {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+  }
+  
+  .btn-save:hover {
+    background-color: #45a049;
+  }

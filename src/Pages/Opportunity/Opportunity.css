@@ -1,0 +1,101 @@
+.job-info {
+  background-color: #7276ec;
+  padding: 20px;
+  border-radius: 5px;
+  display: flex;
+}
+
+.job-title {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-size: 38px;
+  margin-bottom: 45px;
+  color: #333;
+  font-weight: 600;
+}
+.infoPart h3 {
+  color: #f8f5f5;
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+.job-dates {
+  margin-bottom: 10px;
+}
+
+.start-date,
+.end-date {
+  margin-right: 10px;
+  font-size: 19px;
+  color: #f8f5f5;
+  font-weight: bold;
+}
+
+.date-value {
+  font-size: 16px;
+  color: #eeeeee;
+}
+span {
+  margin-top: 30px;
+}
+
+.job-details > span {
+  display: block;
+  font-size: 18px;
+  color: #f3f2f2;
+  margin-bottom: 5px;
+}
+
+.job-type,
+.months-number {
+  font-weight: bold;
+  font-size: 19px;
+  color: #efeded;
+}
+
+.type-value,
+.months-value {
+  font-weight: normal;
+  font-size: 16px;
+  color: #eeeeee;
+}
+
+.organization {
+  font-weight: bold;
+  font-size: 19px;
+  color: #bcbbbb;
+}
+.org-value {
+  font-weight: normal;
+  font-size: 16px;
+  color: #eeeeee;
+}
+.imgPart {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+}
+.imgPart img {
+  width: 400px;
+}
+.infoPart {
+  width: 50%;
+}
+.custom-button {
+  margin-top: 30px;
+  background-color: #ffffff;
+  color: #8a2be2;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+  background-color: #8a2be2;
+  color: #ffffff;
+}

@@ -1,0 +1,12 @@
+.signUpOrg {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(201, 162, 245, 0.233);
+  min-height: 100vh;
+}
+.signupTitle {
+  margin-block: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
